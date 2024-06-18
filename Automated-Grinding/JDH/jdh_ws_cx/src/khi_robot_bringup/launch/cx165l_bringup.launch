@@ -11,7 +11,7 @@
 
   <!-- Load robot description -->
   <param name="robot_description"
-    command="$(find xacro)/xacro --inorder '$(find khi_cx_description)/urdf/cx165l.urdf.xacro'" />
+    command="$(find xacro)/xacro --inorder '$(find khi_cx165l_description)/urdf/cx165l.urdf.xacro'" />
 
   <rosparam>
   </rosparam>
@@ -36,7 +36,7 @@
   <!-- Load joint controller configurations from YAML file to parameter server -->
   <rosparam file="$(find khi_robot_bringup)/config/cx165l_controllers.yaml"
             command="load"/>
-  <rosparam file="$(find khi_cx_description)/config/cx165l_joint_limits.yaml"
+  <rosparam file="$(find khi_cx165l_description)/config/cx165l_joint_limits.yaml"
             command="load" ns="$(arg robot)"/>
 
   <!-- Load the default controllers -->

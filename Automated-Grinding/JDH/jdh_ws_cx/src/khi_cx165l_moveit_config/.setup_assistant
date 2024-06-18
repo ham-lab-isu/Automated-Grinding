@@ -1,10 +1,10 @@
 moveit_setup_assistant_config:
   URDF:
-    package: khi_cx_description
+    package: khi_cx165l_description
     relative_path: urdf/cx165l.urdf.xacro
     xacro_args: --inorder
   SRDF:
-    relative_path: config/khi_cx165l.srdf
+    relative_path: config/workcell.srdf
   CONFIG:
     author_name: Landon Getting
     author_email: lgetting@iastate.edu

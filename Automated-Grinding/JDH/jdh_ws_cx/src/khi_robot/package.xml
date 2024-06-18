@@ -31,7 +31,7 @@
   <run_depend>khi_cx110l_moveit_config</run_depend>
   <run_depend>khi_cx165l_moveit_config</run_depend>
   <run_depend>khi_cx110l_description</run_depend>
-  <run_depend>khi_cx_description</run_depend>
+  <run_depend>khi_cx165l_description</run_depend>
   <run_depend>khi_cx_gazebo</run_depend>
   <run_depend>khi_rs_description</run_depend>
   <run_depend>khi_rs_gazebo</run_depend>
