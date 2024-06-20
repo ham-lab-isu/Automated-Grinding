@@ -1,7 +1,5 @@
 <launch>
 
-  <include file="$(find khi_cx165l_moveit_config)/launch/planning_context.launch" />
-
   <!-- GDB Debug Option -->
   <arg name="debug" default="false" />
   <arg unless="$(arg debug)" name="launch_prefix" value="" />
@@ -14,6 +12,8 @@
   <arg     if="$(arg info)" name="command_args" value="--debug" />
 
   <!-- move_group settings -->
+  <arg name="pipeline" default="ompl" />
+  <arg name="moveit_controller_manager" default="khi_165l" />
   <arg name="allow_trajectory_execution" default="true"/>
   <arg name="fake_execution" default="false"/>
   <arg name="max_safe_path_cost" default="1"/>
@@ -38,16 +38,42 @@
                 " />
   -->
 
-  <!-- Planning Functionality -->
-  <include ns="move_group" file="$(find khi_cx165l_moveit_config)/launch/planning_pipeline.launch.xml">
-    <arg name="pipeline" value="ompl" />
+  <arg name="load_robot_description" default="true" />
+  <!-- load URDF, SRDF and joint_limits configuration -->
+  <include file="$(dirname)/planning_context.launch">
+    <arg name="load_robot_description" value="$(arg load_robot_description)" />
   </include>
 
+  <!-- Planning Pipelines -->
+  <group ns="move_group/planning_pipelines">
+
+    <!-- OMPL -->
+    <include file="$(dirname)/planning_pipeline.launch.xml">
+      <arg name="pipeline" value="ompl" />
+    </include>
+
+    <!-- CHOMP -->
+    <include file="$(dirname)/planning_pipeline.launch.xml">
+      <arg name="pipeline" value="chomp" />
+    </include>
+
+    <!-- Pilz Industrial Motion -->
+    <!--<include file="$(dirname)/planning_pipeline.launch.xml">-->
+      <!--<arg name="pipeline" value="pilz_industrial_motion_planner" />-->
+    <!--</include>-->
+
+    <!-- Support custom planning pipeline
+    <include if="$(eval arg('pipeline') not in ['ompl', 'chomp', 'pilz_industrial_motion_planner'])"
+             file="$(dirname)/planning_pipeline.launch.xml">
+      <arg name="pipeline" value="$(arg pipeline)" />
+    </include>
+    -->
+    </group>
+
   <!-- Trajectory Execution Functionality -->
-  <include ns="move_group" file="$(find khi_cx165l_moveit_config)/launch/trajectory_execution.launch.xml" if="$(arg allow_trajectory_execution)">
+  <include ns="move_group" file="$(find khi_cx165l_moveit_config)/launch/trajectory_execution.launch.xml">
     <arg name="moveit_manage_controllers" value="true" />
-    <arg name="moveit_controller_manager" value="khi_cx165l" unless="$(arg fake_execution)"/>
-    <arg name="moveit_controller_manager" value="fake" if="$(arg fake_execution)"/>
+    <arg name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/>
   </include>
 
   <!-- Sensors Functionality -->
@@ -61,7 +87,8 @@
     <env name="DISPLAY" value="$(optenv DISPLAY :0)" />
 
     <param name="allow_trajectory_execution" value="$(arg allow_trajectory_execution)"/>
-    <param name="max_safe_path_cost" value="$(arg max_safe_path_cost)"/>
+    <param name="sense_for_plan/max_safe_path_cost" value="$(arg max_safe_path_cost)"/>
+    <param name="default_planning_pipeline" value="$(arg pipeline)" />
     <param name="jiggle_fraction" value="$(arg jiggle_fraction)" />
     <param name="capabilities" value="$(arg capabilities)"/>
     <param name="disable_capabilities" value="$(arg disable_capabilities)"/>
