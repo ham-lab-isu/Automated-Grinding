@@ -1,12 +1,16 @@
 <?xml version="1.0" ?>
-<robot name="khi_cx165l" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="khi_cx" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:include filename="$(find khi_cx_description)/urdf/cx165l_macro.xacro"/>
+  <xacro:include filename="$(find khi_cx_description)/urdf/cx110l_macro.xacro"/>
 
   <!-- instantiate cx165l -->
   <xacro:khi_cx165l prefix="" />
 
-  <!-- Fix both cx robots to world -->
+    <!-- instantiate cx110l -->
+  <xacro:khi_cx110l prefix="" />
+
+  <!-- Fix cx165l to world -->
 
   <link name="world"/>
 
@@ -19,7 +23,7 @@
   <joint name="world2base_cx110l" type="fixed">
     <parent link="world"/>
     <child link="base_plate_cx110l"/>
-    <origin rpy="0 0 0" xyz="-5.0546 0 0"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
-  
+
 </robot>

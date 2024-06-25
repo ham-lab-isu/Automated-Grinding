@@ -76,7 +76,7 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          base_plate:
+          base_plate_cx165l:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -195,7 +195,7 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          base_plate:
+          base_plate_cx165l:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -285,7 +285,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 3.75880957
+      Distance: 16.0
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -303,7 +303,7 @@ Visualization Manager:
       Pitch: 0.509796977
       Target Frame: world
       Value: XYOrbit (rviz)
-      Yaw: 5.65994978
+      Yaw: 2.517
     Saved: ~
 Window Geometry:
   Displays:

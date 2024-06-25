@@ -13,7 +13,7 @@
   </include>
 
   <!-- send robot urdf to param server -->
-  <param name="robot_description" command="xacro --inorder '$(find khi_cx110l_description)/urdf/cx110l.urdf.xacro'" />
+  <param name="robot_description" command="xacro --inorder '$(find khi_cx_description)/urdf/cx110l.urdf.xacro'" />
 
   <!-- unpause only after loading robot model -->
   <arg name="unpause" value="$(eval '' if arg('paused') else '-unpause')" />

@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
-<robot name="khi_cx165l" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="khi_cx110l" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find khi_cx_description)/urdf/cx165l_macro.xacro"/>
+  <xacro:include filename="$(find khi_cx_description)/urdf/cx110l_macro.xacro"/>
 
-  <!-- instantiate cx165l -->
-  <xacro:khi_cx165l prefix="" />
+  <!-- instantiate cx110l -->
+  <xacro:khi_cx110l prefix="" />
 
   <!-- Fix both cx robots to world -->
 

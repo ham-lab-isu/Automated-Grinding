@@ -10,5 +10,5 @@ catkin_package()
 #  roslaunch_add_file_check(tests/roslaunch_test_cx.xml)
 #endif()
 
-install(DIRECTORY config meshes urdf
+install(DIRECTORY config cx165l_meshes cx110l_meshes urdf
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

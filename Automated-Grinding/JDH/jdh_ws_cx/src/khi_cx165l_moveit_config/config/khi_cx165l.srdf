@@ -25,7 +25,7 @@
     <virtual_joint name="world2base_link" type="fixed" parent_frame="world" child_link="base_link"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <!--<disable_collisions link1="base_link" link2="isu_lab" reason="Adjacent"/>-->
-    <disable_collisions link1="base_link" link2="base_plate" reason="Adjacent"/>
+    <disable_collisions link1="base_link" link2="base_plate_cx165l" reason="Adjacent"/>
     <disable_collisions link1="base_link" link2="east_wall" reason="Never"/>
     <disable_collisions link1="base_link" link2="floor" reason="Default"/>
     <disable_collisions link1="base_link" link2="link1" reason="Adjacent"/>
@@ -37,14 +37,14 @@
     <disable_collisions link1="base_link" link2="north_wall" reason="Never"/>
     <disable_collisions link1="base_link" link2="south_wall" reason="Never"/>
     <disable_collisions link1="base_link" link2="west_wall" reason="Never"/>
-    <disable_collisions link1="base_plate" link2="east_wall" reason="Adjacent"/>
-    <disable_collisions link1="base_plate" link2="floor" reason="Adjacent"/>
-    <disable_collisions link1="base_plate" link2="link1" reason="Never"/>
-    <disable_collisions link1="base_plate" link2="link2" reason="Never"/>
-    <disable_collisions link1="base_plate" link2="link3" reason="Never"/>
-    <disable_collisions link1="base_plate" link2="north_wall" reason="Adjacent"/>
-    <disable_collisions link1="base_plate" link2="south_wall" reason="Adjacent"/>
-    <disable_collisions link1="base_plate" link2="west_wall" reason="Adjacent"/>
+    <disable_collisions link1="base_plate_cx165l" link2="east_wall" reason="Adjacent"/>
+    <disable_collisions link1="base_plate_cx165l" link2="floor" reason="Adjacent"/>
+    <disable_collisions link1="base_plate_cx165l" link2="link1" reason="Never"/>
+    <disable_collisions link1="base_plate_cx165l" link2="link2" reason="Never"/>
+    <disable_collisions link1="base_plate_cx165l" link2="link3" reason="Never"/>
+    <disable_collisions link1="base_plate_cx165l" link2="north_wall" reason="Adjacent"/>
+    <disable_collisions link1="base_plate_cx165l" link2="south_wall" reason="Adjacent"/>
+    <disable_collisions link1="base_plate_cx165l" link2="west_wall" reason="Adjacent"/>
     <disable_collisions link1="east_wall" link2="floor" reason="Adjacent"/>
     <disable_collisions link1="east_wall" link2="link1" reason="Never"/>
     <disable_collisions link1="east_wall" link2="north_wall" reason="Adjacent"/>

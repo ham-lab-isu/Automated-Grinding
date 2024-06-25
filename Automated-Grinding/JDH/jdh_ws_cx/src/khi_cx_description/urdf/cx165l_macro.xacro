@@ -6,7 +6,6 @@
     <xacro:include filename="$(find khi_cx_description)/urdf/common.gazebo.xacro" />
     <xacro:include filename="$(find khi_cx_description)/urdf/isu_lab.xacro" />
 
-
     <!-- link rviz colors -->
     <material name="White">
       <color rgba="1 1 1 1"/>
@@ -57,7 +56,7 @@
     </xacro:macro>
 
     <joint name="${prefix}base_link_joint" type="fixed">
-        <parent link="base_plate" />
+        <parent link="base_plate_cx165l" />
         <child link="base_link" />
         <origin rpy="0 0 0" xyz="0 0 0" />
     </joint>
@@ -70,7 +69,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-BASE.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-BASE.STL" />
             </geometry>
             <material
                 name="">
@@ -84,7 +83,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-BASE-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-BASE-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j0_mass}"/>
@@ -108,7 +107,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J1.STL"/>
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J1.STL"/>
             </geometry>
             <material
                 name="">
@@ -122,7 +121,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J1-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J1-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j1_mass}"/>
@@ -145,7 +144,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J2.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J2.STL" />
             </geometry>
             <material
                 name="">
@@ -159,7 +158,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J2-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J2-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j2_mass}"/>
@@ -182,7 +181,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J3.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J3.STL" />
             </geometry>
             <material
                 name="">
@@ -196,7 +195,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J3-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J3-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j3_mass}"/>
@@ -219,7 +218,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J4.STL"  />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J4.STL"  />
             </geometry>
             <material
                 name="">
@@ -233,7 +232,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J4-HULL.STL"  />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J4-HULL.STL"  />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j4_mass}"/>
@@ -256,7 +255,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J5.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J5.STL" />
             </geometry>
             <material
                 name="">
@@ -270,7 +269,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J5-HULL.STL"/>
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J5-HULL.STL"/>
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j5_mass}"/>
@@ -293,7 +292,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J6.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J6.STL" />
             </geometry>
             <material
                 name="">
@@ -307,7 +306,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-J6-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-J6-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="${j6_mass}"/>
@@ -327,7 +326,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-PUSHCORP.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-PUSHCORP.STL" />
             </geometry>
             <material
                 name="">
@@ -341,7 +340,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="package://khi_cx_description/meshes/CX165L-PUSHCORP-HULL.STL" />
+                filename="package://khi_cx_description/cx165l_meshes/CX165L-PUSHCORP-HULL.STL" />
             </geometry>
         </collision>
         <xacro:default_inertial mass="1"/>
