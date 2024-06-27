@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target my_mtc_task[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_mtc_task.dir/src/my_mtc_task.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/my_mtc_package/lib/my_mtc_package/my_mtc_task[0m
+[100%] Built target my_mtc_task

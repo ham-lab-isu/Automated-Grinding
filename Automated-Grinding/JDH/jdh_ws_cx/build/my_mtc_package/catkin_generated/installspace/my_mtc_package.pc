@@ -1,0 +1,8 @@
+prefix=/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/install
+
+Name: my_mtc_package
+Description: Description of my_mtc_package
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmy_mtc_package
+Requires: roscpp moveit_core moveit_task_constructor_core moveit_ros_planning_interface moveit_task_constructor_msgs

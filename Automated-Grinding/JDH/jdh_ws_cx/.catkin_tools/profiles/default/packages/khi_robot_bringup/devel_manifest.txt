@@ -1,0 +1,5 @@
+khi_robot_bringup
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/khi_robot_bringup/cmake.lock /home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/./cmake.lock
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/khi_robot_bringup/share/khi_robot_bringup/cmake/khi_robot_bringupConfig.cmake /home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/share/khi_robot_bringup/cmake/khi_robot_bringupConfig.cmake
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/khi_robot_bringup/share/khi_robot_bringup/cmake/khi_robot_bringupConfig-version.cmake /home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/share/khi_robot_bringup/cmake/khi_robot_bringupConfig-version.cmake
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/khi_robot_bringup/lib/pkgconfig/khi_robot_bringup.pc /home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/lib/pkgconfig/khi_robot_bringup.pc

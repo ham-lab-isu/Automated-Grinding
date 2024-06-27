@@ -1,0 +1,7 @@
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/src/my_mtc_package/src/my_mtc_task.cpp:[m[K In constructor ‘[01m[KMyMTCTask::MyMTCTask()[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/src/my_mtc_package/src/my_mtc_task.cpp:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::task_constructor::stages::Connect[m[K’ has no member named ‘[01m[KsetGroup[m[K’
+   34 |     connect->[01;31m[KsetGroup[m[K("arm");
+      |              [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/my_mtc_task.dir/build.make:63: CMakeFiles/my_mtc_task.dir/src/my_mtc_task.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:254: CMakeFiles/my_mtc_task.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

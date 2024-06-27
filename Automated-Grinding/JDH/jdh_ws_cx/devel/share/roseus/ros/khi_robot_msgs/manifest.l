@@ -1,0 +1,1 @@
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/khi_robot_msgs/share/roseus/ros/khi_robot_msgs/manifest.l

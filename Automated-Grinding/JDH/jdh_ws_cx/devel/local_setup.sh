@@ -1,0 +1,1 @@
+/home/wglockner/Automated-Grinding/Automated-Grinding/JDH/jdh_ws_cx/devel/.private/catkin_tools_prebuild/local_setup.sh
