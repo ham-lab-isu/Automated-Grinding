@@ -1,0 +1,12 @@
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./_setup_util.py
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./env.sh
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./setup.zsh
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./local_setup.zsh
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./setup.bash
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./local_setup.bash
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./setup.sh
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./cmake.lock
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./local_setup.sh
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/pkgconfig/catkin_tools_prebuild.pc

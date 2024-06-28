@@ -1,0 +1,6 @@
+my_mtc_pkg
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/cmake.lock /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/./cmake.lock
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/share/my_mtc_pkg/cmake/my_mtc_pkgConfig-version.cmake /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/my_mtc_pkg/cmake/my_mtc_pkgConfig-version.cmake
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/share/my_mtc_pkg/cmake/my_mtc_pkgConfig.cmake /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/my_mtc_pkg/cmake/my_mtc_pkgConfig.cmake
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/lib/pkgconfig/my_mtc_pkg.pc /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/pkgconfig/my_mtc_pkg.pc
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/lib/my_mtc_pkg/task_constructor_demo /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/my_mtc_pkg/task_constructor_demo

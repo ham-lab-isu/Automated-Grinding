@@ -1,0 +1,6 @@
+devel_space: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel
+install: false
+install_space: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/install
+profile: default
+source_space: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src
+workspace: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx

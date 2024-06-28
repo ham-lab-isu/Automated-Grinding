@@ -1,0 +1,10 @@
+<launch>
+  <!-- Load robot description -->
+  <include file="$(find my_mtc_pkg)/launch/load_robot_description.launch"/>
+
+  <!-- Run the task constructor node with debug logging -->
+  <node name="task_constructor_demo" pkg="my_mtc_pkg" type="task_constructor_demo" output="screen">
+    <param name="log_level" value="debug"/>
+  </node>
+</launch>
+

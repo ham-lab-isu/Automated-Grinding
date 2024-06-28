@@ -1,0 +1,5 @@
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/khi_duaro_ikfast_plugin/cmake/khi_duaro_ikfast_pluginConfig-version.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/khi_duaro_ikfast_plugin/cmake/khi_duaro_ikfast_pluginConfig.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/libduaro_upper_arm_moveit_ikfast_plugin.so
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/libduaro_lower_arm_moveit_ikfast_plugin.so
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/pkgconfig/khi_duaro_ikfast_plugin.pc

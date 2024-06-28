@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/python3/dist-packages"
+    ]
+}

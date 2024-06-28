@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target task_constructor_demo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/task_constructor_demo.dir/src/task_constructor_demo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/my_mtc_pkg/lib/my_mtc_pkg/task_constructor_demo[0m
+[100%] Built target task_constructor_demo

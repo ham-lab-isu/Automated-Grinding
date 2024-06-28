@@ -1,0 +1,10 @@
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/libmoveit_task_constructor_demo_pick_place_task.so
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/pkgconfig/moveit_task_constructor_demo.pc
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/cartesian
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/alternative_path_costs
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/pick_place_demo
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/fallbacks_move_to
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/ik_clearance_cost
+Symlinking /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/lib/moveit_task_constructor_demo/modular
