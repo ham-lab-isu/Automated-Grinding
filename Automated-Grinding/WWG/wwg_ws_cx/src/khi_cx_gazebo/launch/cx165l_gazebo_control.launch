@@ -6,7 +6,7 @@
   <!-- load the rs080 controllers -->
   <node name="controller_spawner" pkg="controller_manager"
         type="spawner" respawn="false"
-        output="screen" args="--shutdown-timeout 0.1
+        output="screen" args="--shutdown-timeout 10
                                            joint_state_controller
                                            cx165l_arm_controller
                                          "/>

@@ -513,7 +513,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 kdl_parser_DIR:PATH=/opt/ros/noetic/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/rviz_marker_tools/lib/librviz_marker_tools.so
+lib:FILEPATH=/opt/ros/noetic/lib/librosparam_shortcuts.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -604,6 +604,9 @@ roslib_DIR:PATH=/opt/ros/noetic/share/roslib/cmake
 
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/noetic/share/rospack/cmake
+
+//The directory containing a CMake configuration file for rosparam_shortcuts.
+rosparam_shortcuts_DIR:PATH=/opt/ros/noetic/share/rosparam_shortcuts/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake

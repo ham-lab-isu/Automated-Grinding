@@ -438,8 +438,8 @@ CMakeFiles/run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_
 # Target rules for target CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/all: CMakeFiles/clean_test_results_khi_duaro_description.dir/all
 CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/all: CMakeFiles/clean_test_results_khi_duaro_description.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/build.make CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/build.make CMakeFiles/_run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_description/CMakeFiles --progress-num= "Built target _run_tests_khi_duaro_description_roslaunch-check_tests_roslaunch_test_duaro.xml"

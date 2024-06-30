@@ -8,6 +8,9 @@ find_package(catkin REQUIRED COMPONENTS
   geometric_shapes
   roscpp
   moveit_task_constructor_core
+  tf2_geometry_msgs
+  geometry_msgs
+  rosparam_shortcuts
 )
 
 catkin_package(

@@ -185,6 +185,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/noetic/share/roslib/cmake/roslibConfig.cmake"
   "/opt/ros/noetic/share/rospack/cmake/rospackConfig-version.cmake"
   "/opt/ros/noetic/share/rospack/cmake/rospackConfig.cmake"
+  "/opt/ros/noetic/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake"
+  "/opt/ros/noetic/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake"
   "/opt/ros/noetic/share/rospy/cmake/rospyConfig-version.cmake"
   "/opt/ros/noetic/share/rospy/cmake/rospyConfig.cmake"
   "/opt/ros/noetic/share/rostime/cmake/rostimeConfig-version.cmake"

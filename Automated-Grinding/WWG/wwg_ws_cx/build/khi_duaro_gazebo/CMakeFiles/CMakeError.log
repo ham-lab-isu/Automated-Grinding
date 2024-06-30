@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_01998/fast && /usr/bin/make -f CMakeFiles/cmTC_01998.dir/build.make CMakeFiles/cmTC_01998.dir/build
+Run Build Command(s):/usr/bin/make cmTC_67af8/fast && /usr/bin/make -f CMakeFiles/cmTC_67af8.dir/build.make CMakeFiles/cmTC_67af8.dir/build
 make[1]: Entering directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01998.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_01998.dir/src.c.o   -c /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_01998
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01998.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_01998.dir/src.c.o  -o cmTC_01998 
-/usr/bin/ld: CMakeFiles/cmTC_01998.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_67af8.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_67af8.dir/src.c.o   -c /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_67af8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67af8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_67af8.dir/src.c.o  -o cmTC_67af8 
+/usr/bin/ld: CMakeFiles/cmTC_67af8.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_01998.dir/build.make:87: cmTC_01998] Error 1
+make[1]: *** [CMakeFiles/cmTC_67af8.dir/build.make:87: cmTC_67af8] Error 1
 make[1]: Leaving directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_01998/fast] Error 2
+make: *** [Makefile:121: cmTC_67af8/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7429e/fast && /usr/bin/make -f CMakeFiles/cmTC_7429e.dir/build.make CMakeFiles/cmTC_7429e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_dbd9c/fast && /usr/bin/make -f CMakeFiles/cmTC_dbd9c.dir/build.make CMakeFiles/cmTC_dbd9c.dir/build
 make[1]: Entering directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7429e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7429e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7429e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7429e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7429e.dir/CheckFunctionExists.c.o  -o cmTC_7429e  -lpthreads 
+Building C object CMakeFiles/cmTC_dbd9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dbd9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbd9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbd9c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dbd9c.dir/CheckFunctionExists.c.o  -o cmTC_dbd9c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_7429e.dir/build.make:87: cmTC_7429e] Error 1
+make[1]: *** [CMakeFiles/cmTC_dbd9c.dir/build.make:87: cmTC_dbd9c] Error 1
 make[1]: Leaving directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_duaro_gazebo/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_7429e/fast] Error 2
+make: *** [Makefile:121: cmTC_dbd9c/fast] Error 2
 
 
 
