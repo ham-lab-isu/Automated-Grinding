@@ -1,8 +1,0 @@
-<launch>
-
- <!-- load the robot_description parameter before launching ROS-I nodes -->
-  <include file="$(find khi_cx110l_moveit_config)/launch/planning_context.launch" > <!--changed to cx110l -->
-    <arg name="load_robot_description" value="true" />
-  </include>
-
-</launch>

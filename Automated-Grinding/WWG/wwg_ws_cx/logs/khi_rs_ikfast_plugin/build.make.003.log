@@ -1,4 +1,4 @@
-[ 50%] Built target khi_rs020n_manipulator_moveit_ikfast_plugin
-[ 50%] Built target rs080n_manipulator_moveit_ikfast_plugin
-[ 75%] Built target khi_rs025n_manipulator_moveit_ikfast_plugin
 [100%] Built target khi_rs013n_manipulator_moveit_ikfast_plugin
+[100%] Built target khi_rs020n_manipulator_moveit_ikfast_plugin
+[100%] Built target rs080n_manipulator_moveit_ikfast_plugin
+[100%] Built target khi_rs025n_manipulator_moveit_ikfast_plugin

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8ca4e/fast && /usr/bin/make -f CMakeFiles/cmTC_8ca4e.dir/build.make CMakeFiles/cmTC_8ca4e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_e61d2/fast && /usr/bin/make -f CMakeFiles/cmTC_e61d2.dir/build.make CMakeFiles/cmTC_e61d2.dir/build
 make[1]: Entering directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ca4e.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8ca4e.dir/src.c.o   -c /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_8ca4e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca4e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8ca4e.dir/src.c.o  -o cmTC_8ca4e 
-/usr/bin/ld: CMakeFiles/cmTC_8ca4e.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_e61d2.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e61d2.dir/src.c.o   -c /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e61d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e61d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_e61d2.dir/src.c.o  -o cmTC_e61d2 
+/usr/bin/ld: CMakeFiles/cmTC_e61d2.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_8ca4e.dir/build.make:87: cmTC_8ca4e] Error 1
+make[1]: *** [CMakeFiles/cmTC_e61d2.dir/build.make:87: cmTC_e61d2] Error 1
 make[1]: Leaving directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8ca4e/fast] Error 2
+make: *** [Makefile:121: cmTC_e61d2/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_65d6b/fast && /usr/bin/make -f CMakeFiles/cmTC_65d6b.dir/build.make CMakeFiles/cmTC_65d6b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f0de4/fast && /usr/bin/make -f CMakeFiles/cmTC_f0de4.dir/build.make CMakeFiles/cmTC_f0de4.dir/build
 make[1]: Entering directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65d6b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_65d6b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_65d6b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65d6b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_65d6b.dir/CheckFunctionExists.c.o  -o cmTC_65d6b  -lpthreads 
+Building C object CMakeFiles/cmTC_f0de4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f0de4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0de4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0de4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f0de4.dir/CheckFunctionExists.c.o  -o cmTC_f0de4  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_65d6b.dir/build.make:87: cmTC_65d6b] Error 1
+make[1]: *** [CMakeFiles/cmTC_f0de4.dir/build.make:87: cmTC_f0de4] Error 1
 make[1]: Leaving directory '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_core/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_65d6b/fast] Error 2
+make: *** [Makefile:121: cmTC_f0de4/fast] Error 2
 
 
 

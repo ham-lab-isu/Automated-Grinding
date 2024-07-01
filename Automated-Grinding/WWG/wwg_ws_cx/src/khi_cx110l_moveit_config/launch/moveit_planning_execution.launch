@@ -45,14 +45,7 @@
 
   <!-- Launch the RViz Gui with preprogrammed configuration -->
   <include file="$(find khi_cx110l_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
+    <arg name="rviz_config" value="$(find my_mtc_pkg)/config/mtc.rviz"/>
   </include>
-  
-  <param name="move_group/capabilities" value="move_group/ExecuteTaskSolutionCapability" />
-  
-  <!-- Run the task constructor node with debug logging -->
-  <node name="task_constructor_demo" pkg="my_mtc_pkg" type="task_constructor_demo" output="screen">
-    <param name="log_level" value="debug"/>
-  </node>
 
 </launch>

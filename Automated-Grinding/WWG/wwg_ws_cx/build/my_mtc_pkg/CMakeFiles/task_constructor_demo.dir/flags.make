@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"my_mtc_pkg\"
 
-CXX_INCLUDES = -I/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include -I/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools/include -I/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet 
+CXX_INCLUDES = -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet -I/usr/include/OGRE/Overlay -I/usr/include/OGRE 
 

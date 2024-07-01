@@ -1,16 +1,182 @@
 [35m[1mScanning dependencies of target khi_rs025n_manipulator_moveit_ikfast_plugin[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/khi_rs025n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp.o[0m
 [35m[1mScanning dependencies of target khi_rs020n_manipulator_moveit_ikfast_plugin[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/khi_rs020n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs020n_manipulator_ikfast_moveit_plugin.cpp.o[0m
-[35m[1mScanning dependencies of target khi_rs013n_manipulator_moveit_ikfast_plugin[0m
-[ 37%] [32mBuilding CXX object CMakeFiles/khi_rs013n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp.o[0m
 [35m[1mScanning dependencies of target rs080n_manipulator_moveit_ikfast_plugin[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/rs080n_manipulator_moveit_ikfast_plugin.dir/src/rs080n_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[35m[1mScanning dependencies of target khi_rs013n_manipulator_moveit_ikfast_plugin[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/khi_rs025n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rs080n_manipulator_moveit_ikfast_plugin.dir/src/rs080n_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/khi_rs020n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs020n_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/khi_rs013n_manipulator_moveit_ikfast_plugin.dir/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
+      |                                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
+      |                                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs020n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs020n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
   343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
       |                                                                                      [01;35m[K^[m[K
 In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs020n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
+      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
+      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
+      |                                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
 [01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
   344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
       |                               [01;36m[K^~~~~~~~~[m[K
@@ -85,30 +251,6 @@ In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grind
 [01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
   597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
       |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
-      |                                                                                      [01;35m[K^[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
-  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
-      |                               [01;36m[K^~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
-      |                                                                                      [01;35m[K^[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
-  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
-      |                               [01;36m[K^~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  343 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
-      |                                                                                      [01;35m[K^[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
-  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
-      |                               [01;36m[K^~~~~~~~~[m[K
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs013n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
   957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
@@ -180,153 +322,11 @@ In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grind
 [01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
   597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
       |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
- 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
-      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
- 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
-      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/rs080n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:957:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  957 |     num_positive_increments = (int)((max_limit - initial_guess) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:958:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  958 |     num_negative_increments = (int)((initial_guess - min_limit) / [01;35m[Ksearch_discretization_[m[K);
-      |                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:962:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  962 |     num_positive_increments = (joint_max_vector_[free_params_[0]] - initial_guess) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:963:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
-  963 |     num_negative_increments = (initial_guess - joint_min_vector_[free_params_[0]]) / [01;35m[Ksearch_discretization_[m[K;
-      |                                                                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
- 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
-      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:1055:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
- 1055 |     vfree[0] = initial_guess + [01;35m[Ksearch_discretization_[m[K * counter;
-      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_rs_ikfast_plugin/src/khi_rs025n_manipulator_ikfast_moveit_plugin.cpp:50[m[K:
-[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
-  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
-      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
-[ 62%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/librs080n_manipulator_moveit_ikfast_plugin.so[0m
-[ 75%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs013n_manipulator_moveit_ikfast_plugin.so[0m
-[ 87%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs025n_manipulator_moveit_ikfast_plugin.so[0m
-[ 87%] Built target rs080n_manipulator_moveit_ikfast_plugin
-[ 87%] Built target khi_rs013n_manipulator_moveit_ikfast_plugin
-[ 87%] Built target khi_rs025n_manipulator_moveit_ikfast_plugin
-[100%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs020n_manipulator_moveit_ikfast_plugin.so[0m
+[ 62%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs025n_manipulator_moveit_ikfast_plugin.so[0m
+[ 62%] Built target khi_rs025n_manipulator_moveit_ikfast_plugin
+[ 75%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs020n_manipulator_moveit_ikfast_plugin.so[0m
+[ 87%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/librs080n_manipulator_moveit_ikfast_plugin.so[0m
+[100%] [32m[1mLinking CXX shared library /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/khi_rs_ikfast_plugin/lib/libkhi_rs013n_manipulator_moveit_ikfast_plugin.so[0m
 [100%] Built target khi_rs020n_manipulator_moveit_ikfast_plugin
+[100%] Built target rs080n_manipulator_moveit_ikfast_plugin
+[100%] Built target khi_rs013n_manipulator_moveit_ikfast_plugin

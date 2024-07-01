@@ -29,6 +29,7 @@
       <arg name="moveit_controller_manager" value="khi_cx110l"/>
     </include>
   </group>
+  
 
   <!-- REAL ROBOT mode: fires up real robot connection and controller in RViz -->
   <group unless="$(arg sim)">
@@ -42,11 +43,14 @@
       <arg name="moveit_controller_manager" value="khi_cx110l"/>
     </include>
   </group>
+  <param name="move_group/capabilities" value="move_group/ExecuteTaskSolutionCapability" />
 
   <!-- Launch the RViz Gui with preprogrammed configuration -->
   <include file="$(find khi_cx110l_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
+     <arg name="rviz_config" value="$(find my_mtc_pkg)/config/mtc.rviz" />
   </include>
+
+  <param name="move_group/capabilities" value="move_group/ExecuteTaskSolutionCapability" />
 
 
 

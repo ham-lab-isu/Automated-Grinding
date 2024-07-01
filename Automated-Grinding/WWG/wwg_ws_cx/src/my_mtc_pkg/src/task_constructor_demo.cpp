@@ -33,7 +33,7 @@ Task createTask() {
     auto scene = std::make_shared<planning_scene::PlanningScene>(t.getRobotModel());
     {
         auto& state = scene->getCurrentStateNonConst();
-        state.setToDefaultValues(state.getJointModelGroup(group), "home");  // Set to the 'home' state
+        state.setToDefaultValues(state.getJointModelGroup(group), "current");  // Set to the 'home' state
         auto fixed = std::make_unique<stages::FixedState>("initial state");
         fixed->setState(scene);
         t.add(std::move(fixed));
@@ -68,7 +68,7 @@ Task createTask() {
 		stage->setGroup(group);
 		geometry_msgs::TwistStamped twist;
 		twist.header.frame_id = "world";
-		twist.twist.angular.z = M_PI / .04;
+		twist.twist.angular.z = M_PI / .000004;
 		stage->setDirection(twist);
         stage->setIKFrame(ik_frame);  // Set the IK frame to the tip link of your manipulator
 		t.add(std::move(stage));

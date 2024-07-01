@@ -17,13 +17,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include"
-  "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools/include"
-  "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
   "/usr/include/bullet"
+  "/usr/include/OGRE/Overlay"
+  "/usr/include/OGRE"
   )
 
 # Targets to which this target links.

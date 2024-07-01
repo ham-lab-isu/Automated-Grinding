@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_core/lib;/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/rviz_marker_tools/lib;/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/opt/ros/noetic/lib")

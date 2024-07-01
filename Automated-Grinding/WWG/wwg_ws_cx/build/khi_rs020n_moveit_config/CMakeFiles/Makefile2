@@ -465,8 +465,8 @@ CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/all: CMakeFiles/clean_test_results_khi_rs020n_moveit_config.dir/all
 CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/all: CMakeFiles/clean_test_results_khi_rs020n_moveit_config.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/build.make CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/build.make CMakeFiles/_run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/khi_rs020n_moveit_config/CMakeFiles --progress-num= "Built target _run_tests_khi_rs020n_moveit_config_roslaunch-check_tests_roslaunch_test_moveit_rs020n.xml"

@@ -1,6 +1,6 @@
 [35m[1mScanning dependencies of target duaro_lower_arm_moveit_ikfast_plugin[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/duaro_lower_arm_moveit_ikfast_plugin.dir/src/duaro_lower_arm_ikfast_moveit_plugin.cpp.o[0m
 [35m[1mScanning dependencies of target duaro_upper_arm_moveit_ikfast_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/duaro_lower_arm_moveit_ikfast_plugin.dir/src/duaro_lower_arm_ikfast_moveit_plugin.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/duaro_upper_arm_moveit_ikfast_plugin.dir/src/duaro_upper_arm_ikfast_moveit_plugin.cpp.o[0m
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_duaro_ikfast_plugin/src/duaro_lower_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
 [01m[K/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/khi_duaro_ikfast_plugin/src/duaro_lower_arm_ikfast_moveit_plugin.cpp:343:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
