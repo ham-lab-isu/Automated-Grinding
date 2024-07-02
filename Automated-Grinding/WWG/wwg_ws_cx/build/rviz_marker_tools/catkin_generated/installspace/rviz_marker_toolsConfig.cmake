@@ -67,7 +67,7 @@ set(rviz_marker_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_marker_tools_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools)
+  set(rviz_marker_tools_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/rviz_marker_tools)
   set(rviz_marker_tools_DEVEL_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/rviz_marker_tools)
   set(rviz_marker_tools_INSTALL_PREFIX "")
   set(rviz_marker_tools_PREFIX ${rviz_marker_tools_DEVEL_PREFIX})

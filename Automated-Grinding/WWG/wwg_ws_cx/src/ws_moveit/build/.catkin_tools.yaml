@@ -1,0 +1,6 @@
+devel_space: /home/wglockner/ws_moveit/devel
+install: false
+install_space: /home/wglockner/ws_moveit/install
+profile: default
+source_space: /home/wglockner/ws_moveit/src
+workspace: /home/wglockner/ws_moveit

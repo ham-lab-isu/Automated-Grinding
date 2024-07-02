@@ -1,4 +1,4 @@
-# Install script for directory: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization
+# Install script for directory: /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -140,15 +140,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE FILE FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE FILE FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE FILE FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks_rviz_plugin_description.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE FILE FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks_rviz_plugin_description.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE DIRECTORY FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/icons")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_task_constructor_visualization" TYPE DIRECTORY FILES "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/icons")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

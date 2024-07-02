@@ -10,4 +10,4 @@
 export CMAKE_PREFIX_PATH="/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/rviz_marker_tools:$CMAKE_PREFIX_PATH"
 export PWD='/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/rviz_marker_tools'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/rviz_marker_tools/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/rviz_marker_tools:$ROS_PACKAGE_PATH"

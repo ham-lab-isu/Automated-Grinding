@@ -1,0 +1,1 @@
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_tutorials/lib/moveit_tutorials/move_group_python_interface_tutorial.py

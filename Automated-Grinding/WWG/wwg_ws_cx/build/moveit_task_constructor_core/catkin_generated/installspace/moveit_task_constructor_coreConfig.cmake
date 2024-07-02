@@ -67,7 +67,7 @@ set(moveit_task_constructor_core_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(moveit_task_constructor_core_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core)
+  set(moveit_task_constructor_core_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core)
   set(moveit_task_constructor_core_DEVEL_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_core)
   set(moveit_task_constructor_core_INSTALL_PREFIX "")
   set(moveit_task_constructor_core_PREFIX ${moveit_task_constructor_core_DEVEL_PREFIX})

@@ -471,13 +471,13 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for moveit_msgs.
-moveit_msgs_DIR:PATH=/opt/ros/noetic/share/moveit_msgs/cmake
+moveit_msgs_DIR:PATH=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/share/moveit_msgs/cmake
 
 //Value Computed by CMake
 moveit_task_constructor_msgs_BINARY_DIR:STATIC=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_msgs
 
 //Value Computed by CMake
-moveit_task_constructor_msgs_SOURCE_DIR:STATIC=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/msgs
+moveit_task_constructor_msgs_SOURCE_DIR:STATIC=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/msgs
 
 //The directory containing a CMake configuration file for object_recognition_msgs.
 object_recognition_msgs_DIR:PATH=/opt/ros/noetic/share/object_recognition_msgs/cmake
@@ -605,7 +605,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/msgs
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

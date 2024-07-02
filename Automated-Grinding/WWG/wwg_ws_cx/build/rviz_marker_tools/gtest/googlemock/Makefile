@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools
+CMAKE_SOURCE_DIR = /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/rviz_marker_tools
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/rviz_marker_tools

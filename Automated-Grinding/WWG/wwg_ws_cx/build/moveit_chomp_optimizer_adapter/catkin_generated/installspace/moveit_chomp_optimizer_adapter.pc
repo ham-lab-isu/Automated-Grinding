@@ -1,0 +1,8 @@
+prefix=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/install
+
+Name: moveit_chomp_optimizer_adapter
+Description: Description of moveit_chomp_optimizer_adapter
+Version: 1.1.14
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

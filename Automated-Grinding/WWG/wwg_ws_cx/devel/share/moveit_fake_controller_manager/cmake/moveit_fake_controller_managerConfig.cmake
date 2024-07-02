@@ -1,0 +1,1 @@
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_fake_controller_manager/share/moveit_fake_controller_manager/cmake/moveit_fake_controller_managerConfig.cmake

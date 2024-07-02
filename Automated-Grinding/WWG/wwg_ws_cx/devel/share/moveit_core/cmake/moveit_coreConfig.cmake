@@ -1,0 +1,1 @@
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake

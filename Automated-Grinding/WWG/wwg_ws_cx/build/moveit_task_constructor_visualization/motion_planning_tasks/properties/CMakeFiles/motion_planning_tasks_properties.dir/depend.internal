@@ -4,19 +4,32 @@
 motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/motion_planning_tasks_properties_autogen/mocs_compilation.cpp.o
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_visualization/motion_planning_tasks/properties/motion_planning_tasks_properties_autogen/mocs_compilation.cpp
 motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_factory.cpp.o
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/AllowedCollisionEntry.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/AllowedCollisionMatrix.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/AttachedCollisionObject.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/CollisionObject.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/LinkPadding.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/LinkScale.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/ObjectColor.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/PlanningScene.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/PlanningSceneWorld.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/RobotState.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_msgs/include/moveit_msgs/RobotTrajectory.h
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/Solution.h
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/SolutionInfo.h
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/SubSolution.h
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/SubTrajectory.h
  /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/TrajectoryExecutionInfo.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/cost_queue.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/stage.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/storage.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/trajectory_execution_info.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/utils.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.cpp
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/cost_queue.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/stage.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/storage.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/trajectory_execution_info.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/utils.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.cpp
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.h
  /opt/ros/noetic/include/geometry_msgs/Point.h
  /opt/ros/noetic/include/geometry_msgs/Pose.h
  /opt/ros/noetic/include/geometry_msgs/Quaternion.h
@@ -25,19 +38,6 @@ motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir
  /opt/ros/noetic/include/geometry_msgs/Twist.h
  /opt/ros/noetic/include/geometry_msgs/Vector3.h
  /opt/ros/noetic/include/geometry_msgs/Wrench.h
- /opt/ros/noetic/include/moveit/macros/class_forward.h
- /opt/ros/noetic/include/moveit/macros/declare_ptr.h
- /opt/ros/noetic/include/moveit_msgs/AllowedCollisionEntry.h
- /opt/ros/noetic/include/moveit_msgs/AllowedCollisionMatrix.h
- /opt/ros/noetic/include/moveit_msgs/AttachedCollisionObject.h
- /opt/ros/noetic/include/moveit_msgs/CollisionObject.h
- /opt/ros/noetic/include/moveit_msgs/LinkPadding.h
- /opt/ros/noetic/include/moveit_msgs/LinkScale.h
- /opt/ros/noetic/include/moveit_msgs/ObjectColor.h
- /opt/ros/noetic/include/moveit_msgs/PlanningScene.h
- /opt/ros/noetic/include/moveit_msgs/PlanningSceneWorld.h
- /opt/ros/noetic/include/moveit_msgs/RobotState.h
- /opt/ros/noetic/include/moveit_msgs/RobotTrajectory.h
  /opt/ros/noetic/include/object_recognition_msgs/ObjectType.h
  /opt/ros/noetic/include/octomap_msgs/Octomap.h
  /opt/ros/noetic/include/octomap_msgs/OctomapWithPose.h
@@ -360,9 +360,9 @@ motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_from_yaml.cpp.o
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.h
- /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_from_yaml.cpp
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_factory.h
+ /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/properties/property_from_yaml.cpp
  /opt/ros/noetic/include/ros/builtin_message_traits.h
  /opt/ros/noetic/include/ros/datatypes.h
  /opt/ros/noetic/include/ros/duration.h

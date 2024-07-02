@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -88,18 +100,6 @@ test:
 test/fast: test
 
 .PHONY : test/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -168,110 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_lisp
-
-# Build rule for target.
-nav_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_eus
-
-# Build rule for target.
-nav_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_nodejs
-
-# Build rule for target.
-map_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_nodejs
-.PHONY : map_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-map_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
-.PHONY : map_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_lisp
-
-# Build rule for target.
-map_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_lisp
-.PHONY : map_msgs_generate_messages_lisp
-
-# fast build rule for target.
-map_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-.PHONY : map_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_cpp
-
-# Build rule for target.
-map_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_cpp
-.PHONY : map_msgs_generate_messages_cpp
-
-# fast build rule for target.
-map_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-.PHONY : map_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rviz_generate_messages_py
-
-# Build rule for target.
-rviz_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_generate_messages_py
-.PHONY : rviz_generate_messages_py
-
-# fast build rule for target.
-rviz_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/rviz_generate_messages_py.dir/build.make CMakeFiles/rviz_generate_messages_py.dir/build
-.PHONY : rviz_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rviz_generate_messages_nodejs
-
-# Build rule for target.
-rviz_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_generate_messages_nodejs
-.PHONY : rviz_generate_messages_nodejs
-
-# fast build rule for target.
-rviz_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/rviz_generate_messages_nodejs.dir/build.make CMakeFiles/rviz_generate_messages_nodejs.dir/build
-.PHONY : rviz_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named rviz_generate_messages_lisp
-
-# Build rule for target.
-rviz_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_generate_messages_lisp
-.PHONY : rviz_generate_messages_lisp
-
-# fast build rule for target.
-rviz_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/rviz_generate_messages_lisp.dir/build.make CMakeFiles/rviz_generate_messages_lisp.dir/build
-.PHONY : rviz_generate_messages_lisp/fast
-
-#=============================================================================
 # Target rules for targets named moveit_task_constructor_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -335,32 +231,6 @@ tf_generate_messages_nodejs: cmake_check_build_system
 tf_generate_messages_nodejs/fast:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_nodejs.dir/build.make CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_py
-
-# Build rule for target.
-nav_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_py.dir/build.make CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rviz_generate_messages_eus
-
-# Build rule for target.
-rviz_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_generate_messages_eus
-.PHONY : rviz_generate_messages_eus
-
-# fast build rule for target.
-rviz_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/rviz_generate_messages_eus.dir/build.make CMakeFiles/rviz_generate_messages_eus.dir/build
-.PHONY : rviz_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_lisp
@@ -675,19 +545,6 @@ geometry_msgs_generate_messages_nodejs/fast:
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_cpp
-
-# Build rule for target.
-nav_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-#=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -831,19 +688,6 @@ roscpp_generate_messages_cpp/fast:
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named rviz_generate_messages_cpp
-
-# Build rule for target.
-rviz_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_generate_messages_cpp
-.PHONY : rviz_generate_messages_cpp
-
-# fast build rule for target.
-rviz_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/rviz_generate_messages_cpp.dir/build.make CMakeFiles/rviz_generate_messages_cpp.dir/build
-.PHONY : rviz_generate_messages_cpp/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
 
 # Build rule for target.
@@ -935,32 +779,6 @@ visualization_msgs_generate_messages_py/fast:
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named task_constructor_demo
-
-# Build rule for target.
-task_constructor_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task_constructor_demo
-.PHONY : task_constructor_demo
-
-# fast build rule for target.
-task_constructor_demo/fast:
-	$(MAKE) -f CMakeFiles/task_constructor_demo.dir/build.make CMakeFiles/task_constructor_demo.dir/build
-.PHONY : task_constructor_demo/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_py
-
-# Build rule for target.
-map_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_py
-.PHONY : map_msgs_generate_messages_py
-
-# fast build rule for target.
-map_msgs_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_py.dir/build.make CMakeFiles/map_msgs_generate_messages_py.dir/build
-.PHONY : map_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -1050,19 +868,6 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 roscpp_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_eus
-
-# Build rule for target.
-map_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_eus
-.PHONY : map_msgs_generate_messages_eus
-
-# fast build rule for target.
-map_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_eus.dir/build.make CMakeFiles/map_msgs_generate_messages_eus.dir/build
-.PHONY : map_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
@@ -1507,19 +1312,6 @@ trajectory_msgs_generate_messages_cpp/fast:
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_nodejs
-
-# Build rule for target.
-nav_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_nodejs
-.PHONY : nav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-nav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-.PHONY : nav_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1609,6 +1401,19 @@ trajectory_msgs_generate_messages_eus: cmake_check_build_system
 trajectory_msgs_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mtc_task_node
+
+# Build rule for target.
+mtc_task_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mtc_task_node
+.PHONY : mtc_task_node
+
+# fast build rule for target.
+mtc_task_node/fast:
+	$(MAKE) -f CMakeFiles/mtc_task_node.dir/build.make CMakeFiles/mtc_task_node.dir/build
+.PHONY : mtc_task_node/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_nodejs
@@ -1714,32 +1519,32 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/task_constructor_demo.o: src/task_constructor_demo.cpp.o
+src/mtc_task_node.o: src/mtc_task_node.cpp.o
 
-.PHONY : src/task_constructor_demo.o
+.PHONY : src/mtc_task_node.o
 
 # target to build an object file
-src/task_constructor_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/task_constructor_demo.dir/build.make CMakeFiles/task_constructor_demo.dir/src/task_constructor_demo.cpp.o
-.PHONY : src/task_constructor_demo.cpp.o
+src/mtc_task_node.cpp.o:
+	$(MAKE) -f CMakeFiles/mtc_task_node.dir/build.make CMakeFiles/mtc_task_node.dir/src/mtc_task_node.cpp.o
+.PHONY : src/mtc_task_node.cpp.o
 
-src/task_constructor_demo.i: src/task_constructor_demo.cpp.i
+src/mtc_task_node.i: src/mtc_task_node.cpp.i
 
-.PHONY : src/task_constructor_demo.i
+.PHONY : src/mtc_task_node.i
 
 # target to preprocess a source file
-src/task_constructor_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/task_constructor_demo.dir/build.make CMakeFiles/task_constructor_demo.dir/src/task_constructor_demo.cpp.i
-.PHONY : src/task_constructor_demo.cpp.i
+src/mtc_task_node.cpp.i:
+	$(MAKE) -f CMakeFiles/mtc_task_node.dir/build.make CMakeFiles/mtc_task_node.dir/src/mtc_task_node.cpp.i
+.PHONY : src/mtc_task_node.cpp.i
 
-src/task_constructor_demo.s: src/task_constructor_demo.cpp.s
+src/mtc_task_node.s: src/mtc_task_node.cpp.s
 
-.PHONY : src/task_constructor_demo.s
+.PHONY : src/mtc_task_node.s
 
 # target to generate assembly for a file
-src/task_constructor_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/task_constructor_demo.dir/build.make CMakeFiles/task_constructor_demo.dir/src/task_constructor_demo.cpp.s
-.PHONY : src/task_constructor_demo.cpp.s
+src/mtc_task_node.cpp.s:
+	$(MAKE) -f CMakeFiles/mtc_task_node.dir/build.make CMakeFiles/mtc_task_node.dir/src/mtc_task_node.cpp.s
+.PHONY : src/mtc_task_node.cpp.s
 
 # Help Target
 help:
@@ -1748,24 +1553,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... install/local"
-	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... map_msgs_generate_messages_nodejs"
-	@echo "... map_msgs_generate_messages_lisp"
-	@echo "... map_msgs_generate_messages_cpp"
-	@echo "... rviz_generate_messages_py"
-	@echo "... rviz_generate_messages_nodejs"
-	@echo "... rviz_generate_messages_lisp"
 	@echo "... moveit_task_constructor_msgs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... tf_generate_messages_nodejs"
-	@echo "... nav_msgs_generate_messages_py"
-	@echo "... rviz_generate_messages_eus"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_gencfg"
@@ -1790,7 +1585,6 @@ help:
 	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_py"
@@ -1802,7 +1596,6 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rviz_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... moveit_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_eus"
@@ -1811,8 +1604,6 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... visualization_msgs_generate_messages_py"
 	@echo "... install"
-	@echo "... task_constructor_demo"
-	@echo "... map_msgs_generate_messages_py"
 	@echo "... tests"
 	@echo "... moveit_task_constructor_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1820,7 +1611,6 @@ help:
 	@echo "... moveit_ros_manipulation_gencfg"
 	@echo "... shape_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... map_msgs_generate_messages_eus"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_nodejs"
@@ -1856,7 +1646,6 @@ help:
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
@@ -1865,6 +1654,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... mtc_task_node"
 	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... shape_msgs_generate_messages_lisp"
 	@echo "... trajectory_msgs_generate_messages_lisp"
@@ -1873,9 +1663,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/task_constructor_demo.o"
-	@echo "... src/task_constructor_demo.i"
-	@echo "... src/task_constructor_demo.s"
+	@echo "... src/mtc_task_node.o"
+	@echo "... src/mtc_task_node.i"
+	@echo "... src/mtc_task_node.s"
 .PHONY : help
 
 

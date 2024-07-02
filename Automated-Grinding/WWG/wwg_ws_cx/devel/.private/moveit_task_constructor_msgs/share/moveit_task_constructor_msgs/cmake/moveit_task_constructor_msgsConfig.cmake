@@ -67,7 +67,7 @@ set(moveit_task_constructor_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(moveit_task_constructor_msgs_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/msgs)
+  set(moveit_task_constructor_msgs_SOURCE_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/msgs)
   set(moveit_task_constructor_msgs_DEVEL_PREFIX /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_task_constructor_msgs)
   set(moveit_task_constructor_msgs_INSTALL_PREFIX "")
   set(moveit_task_constructor_msgs_PREFIX ${moveit_task_constructor_msgs_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/deve
         message(FATAL_ERROR "Project 'moveit_task_constructor_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'moveit_task_constructor_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'moveit_task_constructor_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(moveit_task_constructor_msgs_INCLUDE_DIRS ${include})
   endforeach()

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
 visualization_msgs/Marker.h
 -
 geometry_msgs/PoseStamped.h
@@ -14,7 +14,7 @@ geometry_msgs/PoseStamped.h
 Eigen/Geometry
 -
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/rviz_marker_tools/src/marker_creation.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/rviz_marker_tools/src/marker_creation.cpp
 rviz_marker_tools/marker_creation.h
 -
 urdf_model/link.h

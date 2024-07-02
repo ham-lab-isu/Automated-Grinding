@@ -1,0 +1,8 @@
+prefix=/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/devel/.private/moveit_commander
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 1.1.14
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

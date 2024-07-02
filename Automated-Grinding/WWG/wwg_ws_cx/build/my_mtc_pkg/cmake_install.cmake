@@ -146,6 +146,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/my_mtc_pkg/gtest/cmake_install.cmake")
+  include("/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/my_mtc_pkg/pybind11/cmake_install.cmake")
 
 endif()
 

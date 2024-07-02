@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Load the kinematics configuration -->
+  <rosparam command="load" file="$(find khi_cx110l_moveit_config)/config/kinematics.yaml"/>
+
+  <!-- Launch the MTC Task Node -->
+  <node name="mtc_task_node" pkg="my_mtc_pkg" type="mtc_task_node" output="screen"/>
+</launch>

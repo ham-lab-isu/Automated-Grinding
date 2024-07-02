@@ -35,13 +35,6 @@ Not searching for unused variables given on the command line.
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 moveit_task_constructor_core: You did not request a specific build type: Choosing 'Release' for maximum performance
-Missing content of submodule pybind11: Use 'git clone --recurse-submodule' in future.
-Checking out content automatically
-Submodule 'core/python/pybind11' (https://github.com/pybind/pybind11) registered for path 'pybind11'
-Cloning into '/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/core/python/pybind11'...
-From https://github.com/pybind/pybind11
- * branch            f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa -> FETCH_HEAD
-Submodule path 'pybind11': checked out 'f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa'
 [36m--[0m pybind11 v2.13.0 dev1
 [36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8.10")
 [36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so

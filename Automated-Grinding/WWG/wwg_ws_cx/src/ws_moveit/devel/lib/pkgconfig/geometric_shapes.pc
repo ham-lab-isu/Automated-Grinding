@@ -1,0 +1,1 @@
+/home/wglockner/ws_moveit/devel/.private/geometric_shapes/lib/pkgconfig/geometric_shapes.pc

@@ -185,7 +185,7 @@ foreach(t ${my_mtc_pkg_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "moveit_core;moveit_ros_planning_interface;pluginlib;geometric_shapes;roscpp;moveit_task_constructor_core")
+set(depends "moveit_core;moveit_ros_planning_interface;pluginlib;geometric_shapes;roscpp;moveit_task_constructor_core;moveit_task_constructor_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

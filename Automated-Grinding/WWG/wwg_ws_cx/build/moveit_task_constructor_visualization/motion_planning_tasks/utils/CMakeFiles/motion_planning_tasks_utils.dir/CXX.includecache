@@ -8,25 +8,25 @@
 
 /home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/build/moveit_task_constructor_visualization/motion_planning_tasks/utils/motion_planning_tasks_utils_autogen/mocs_compilation.cpp
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.cpp
 flat_merge_proxy_model.h
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.h
 vector
 -
 numeric
 -
 moc_flat_merge_proxy_model.cpp
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/moc_flat_merge_proxy_model.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/moc_flat_merge_proxy_model.cpp
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/flat_merge_proxy_model.h
 QAbstractItemModel
 -
 QStringList
 -
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.cpp
 icon.h
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.h
 QApplication
 -
 QIcon
@@ -42,21 +42,21 @@ QPaintEngine
 QWidget
 -
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/icon.h
 QPair
 -
 QVector
 -
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.cpp
 tree_merge_proxy_model.h
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.h
 vector
 -
 moc_tree_merge_proxy_model.cpp
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/moc_tree_merge_proxy_model.cpp
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/moc_tree_merge_proxy_model.cpp
 
-/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.h
+/home/wglockner/Automated-Grinding/Automated-Grinding/WWG/wwg_ws_cx/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/utils/tree_merge_proxy_model.h
 QAbstractItemModel
 -
 QStringList
